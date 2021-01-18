@@ -69,12 +69,11 @@ class Leads:
 	email = ""
 	phone = ""
 
-	leadList = [{"name":'Alice Brown', "email":'', "phone":'1231112223'},
-		    {"name":'Bob Crown', "email":'bob@crowns.com', "phone":''},
-		    {"name":'Carlos Drew', "email":'carl@drewess.com', "phone":'3453334445'},
-		    {"name":'Doug Emerty', "email":'', "phone":'4564445556'},
-		    {"name":'Egan Fair', "email":'eg@fairness.com', "phone":'5675556667'},
-		    {"name":'Lucy', "email":'lucy@liu.com', "phone":'3210001112'}]
+	leadList = [{"name": '', "email": 'kevin@keith.com', "phone": ''},
+		    {"name": 'Lucy', "email": 'lucy@liu.com', "phone": '3210001112'},
+		    {"name": '', "email": 'mary@middle.com', "phone": '3331112223'},
+		    {"name": '', "email": '', "phone": '4442223334'},
+		    {"name": '', "email": 'ole@olson.com', "phone": ''}]
 
 	def add_lead_list(self, name="", email="", phone=""):
 		if phone:
